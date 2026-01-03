@@ -1,0 +1,101 @@
+{
+  "input_file": "data/comments_filtered.jsonl",
+  "date_min": "2024-10-21T10:27:20",
+  "date_max": "2024-11-09T23:58:54",
+  "comments_in_window": 25327,
+  "unique_users": 22543,
+  "unique_videos": 194,
+  "bipartite_nodes": 22737,
+  "bipartite_edges": 23614,
+  "user_graph_nodes": 22532,
+  "user_graph_edges": 3311036,
+  "user_graph_density": 0.013044087045685712,
+  "user_graph_avg_clustering": 0.9818567508561411,
+  "largest_connected_component_size": 21952,
+  "louvain_communities": 102,
+  "louvain_modularity": 0.918445253857807,
+  "top_degree_nodes": [
+    [
+      "b4d0b001b2cc68bb",
+      1601
+    ],
+    [
+      "c41b6c2f55aa2f41",
+      1583
+    ],
+    [
+      "ec26e679d211f9a9",
+      1554
+    ],
+    [
+      "cc56e646f6b8aec1",
+      1538
+    ],
+    [
+      "eacb5e2f461dd871",
+      1459
+    ],
+    [
+      "d1336d3c024dd991",
+      1407
+    ],
+    [
+      "1bd56dad0e5dea83",
+      1396
+    ],
+    [
+      "370df457614fa8fb",
+      1395
+    ],
+    [
+      "5cfdf86fc7e74a0d",
+      1378
+    ],
+    [
+      "9d242ec9b891884c",
+      1311
+    ]
+  ],
+  "top_weighted_degree_nodes": [
+    [
+      "b4d0b001b2cc68bb",
+      1626
+    ],
+    [
+      "c41b6c2f55aa2f41",
+      1596
+    ],
+    [
+      "ec26e679d211f9a9",
+      1567
+    ],
+    [
+      "cc56e646f6b8aec1",
+      1549
+    ],
+    [
+      "eacb5e2f461dd871",
+      1490
+    ],
+    [
+      "d1336d3c024dd991",
+      1417
+    ],
+    [
+      "1bd56dad0e5dea83",
+      1402
+    ],
+    [
+      "370df457614fa8fb",
+      1398
+    ],
+    [
+      "5cfdf86fc7e74a0d",
+      1382
+    ],
+    [
+      "9d242ec9b891884c",
+      1311
+    ]
+  ]
+}
