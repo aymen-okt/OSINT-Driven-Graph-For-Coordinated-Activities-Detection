@@ -1,23 +1,23 @@
 # YouTube Election OSINT
 
-Projet d'analyse OSINT pour les élections via YouTube.
+OSINT analysis project for elections via YouTube.
 
-## 📋 Prérequis
+## 📋 Prerequisites
 
-- Python 3.11 ou supérieur
-- Un compte Google avec YouTube Data API v3 activée
-- Une clé API YouTube
+- Python 3.11 or higher
+- A Google account with YouTube Data API v3 enabled
+- A YouTube API key
 
 ## 🚀 Installation
 
-### 1. Cloner le projet
+### 1. Clone the project
 
 ```bash
-git clone <url-du-repo>
+git clone <repo-url>
 cd yt-election-osint
 ```
 
-### 2. Créer un environnement virtuel
+### 2. Create a virtual environment
 
 **Windows (PowerShell):**
 ```powershell
@@ -25,7 +25,7 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-Si vous obtenez une erreur d'exécution, exécutez d'abord:
+If you get an execution policy error, run this first:
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -42,49 +42,49 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Installer les dépendances
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configurer les variables d'environnement
+### 4. Configure environment variables
 
-Créez un fichier `.env` à la racine du projet avec votre clé API YouTube:
+Create a `.env` file at the project root with your YouTube API key:
 
 ```env
-YT_API_KEY=votre_cle_api_youtube_ici
+YT_API_KEY=your_youtube_api_key_here
 ```
 
-**Comment obtenir une clé API YouTube:**
-1. Allez sur [Google Cloud Console](https://console.cloud.google.com/)
-2. Créez un nouveau projet ou sélectionnez un projet existant
-3. Activez l'API "YouTube Data API v3"
-4. Créez des identifiants (clé API)
-5. Copiez la clé dans votre fichier `.env`
+**How to get a YouTube API key:**
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project or select an existing one
+3. Enable the "YouTube Data API v3"
+4. Create credentials (API key)
+5. Copy the key into your `.env` file
 
-## 📝 Utilisation
+## 📝 Usage
 
-### Scripts disponibles
+### Available scripts
 
-1. **01_search_videos.py** - Recherche des vidéos YouTube
-2. **02_fetch_comments.py** - Récupère les commentaires des vidéos
-3. **02b_filter_comments_by_date.py** - Filtre les commentaires par date
-4. **03_build_graphs_sna.py** - Construit les graphes d'analyse de réseau social
-5. **03b_filter_user_graph.py** - Filtre le graphe des utilisateurs
-6. **04_mine_rules_arl.py** - Extraction de règles d'association
-7. **05_score_users.py** - Score les utilisateurs
-8. **06_final_suspicion_score.py** - Calcule le score de suspicion final
+1. **01_search_videos.py** - Search for YouTube videos
+2. **02_fetch_comments.py** - Fetch comments from videos
+3. **02b_filter_comments_by_date.py** - Filter comments by date
+4. **03_build_graphs_sna.py** - Build social network analysis graphs
+5. **03b_filter_user_graph.py** - Filter user graph
+6. **04_mine_rules_arl.py** - Association rule mining
+7. **05_score_users.py** - Score users
+8. **06_final_suspicion_score.py** - Calculate final suspicion score
 
-### Exécuter les scripts
+### Run scripts
 
-Assurez-vous que l'environnement virtuel est activé (vous devriez voir `(.venv)` dans votre terminal), puis:
+Make sure the virtual environment is activated (you should see `(.venv)` in your terminal), then:
 
 ```bash
 python src/01_search_videos.py
 ```
 
-Ou utilisez directement le Python du venv:
+Or use the venv Python directly:
 
 **Windows:**
 ```powershell
@@ -96,33 +96,32 @@ Ou utilisez directement le Python du venv:
 .venv/bin/python src/01_search_videos.py
 ```
 
-## 📁 Structure du projet
+## 📁 Project Structure
 
 ```
 yt-election-osint/
-  data/              # Données générées (JSON, graphes, etc.)
-  src/               # Scripts Python
+  data/              # Generated data (JSON, graphs, etc.)
+  src/               # Python scripts
     01_search_videos.py
     02_fetch_comments.py
     ...
-  .env               # Variables d'environnement (non versionné)
-  requirements.txt   # Dépendances Python
-  README.md          # Ce fichier
+  .env               # Environment variables (not versioned)
+  requirements.txt   # Python dependencies
+  README.md          # This file
 ```
 
-## ⚠️ Notes importantes
+## ⚠️ Important Notes
 
-- Le fichier `.env` contient des informations sensibles et n'est **pas** versionné
-- Les données sont stockées dans le dossier `data/`
-- Assurez-vous d'avoir des quotas suffisants sur votre API YouTube
+- The `.env` file contains sensitive information and is **not** versioned
+- Data is stored in the `data/` folder
+- Make sure you have sufficient quotas on your YouTube API
 
-## 🐛 Dépannage
+## 🐛 Troubleshooting
 
-**Erreur "No module named 'dotenv'":**
-- Vérifiez que l'environnement virtuel est activé
-- Réinstallez les dépendances: `pip install -r requirements.txt`
+**Error "No module named 'dotenv'":**
+- Verify that the virtual environment is activated
+- Reinstall dependencies: `pip install -r requirements.txt`
 
-**Erreur "Missing YT_API_KEY":**
-- Vérifiez que le fichier `.env` existe à la racine du projet
-- Vérifiez que la clé API est correctement définie dans `.env`
-
+**Error "Missing YT_API_KEY":**
+- Verify that the `.env` file exists at the project root
+- Verify that the API key is correctly defined in `.env`
