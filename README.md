@@ -1,15 +1,15 @@
 # OSINT R&D (X + YouTube)
 
-Ce depot contient deux projets separes :
+This repository contains two separate projects:
 
-- `X/` : detection d'activites coordonnees sur X (Twitter).
-- `youtube/` : pipeline OSINT YouTube (collecte + graphes + scoring).
+- `X/`: coordinated activity detection on X (Twitter).
+- `youtube/`: YouTube OSINT pipeline (collection + graphs + scoring).
 
-Chaque dossier est autonome avec son propre `requirements.txt`.
+Each folder is self-contained with its own `requirements.txt`.
 
 ## X (Twitter) — Execution
 
-Depuis `X/` :
+From `X/`:
 
 ```powershell
 python -m venv .venv
@@ -25,7 +25,8 @@ python src/06_nlp_features.py
 python src/07_detect_coordination.py
 ```
 
-Sorties principales :
+Main outputs:
+
 - `data/coordination_edges.csv`
 - `data/coordination_clusters.csv`
 - `data/x_user_item.gexf`
@@ -35,7 +36,7 @@ Sorties principales :
 
 ## YouTube — Execution
 
-Depuis `youtube/` :
+From `youtube/`:
 
 ```powershell
 python -m venv .venv
@@ -52,7 +53,7 @@ python src/07_score_users.py
 python src/08_final_suspicion_score.py
 ```
 
-## Notes Git
+## Git Notes
 
-- `X/data/` est ignore (sauf les deux CSV bruts).
-- `.venv/` est ignore.
+- `X/data/` is ignored (except the two raw CSV files).
+- `.venv/` is ignored.
