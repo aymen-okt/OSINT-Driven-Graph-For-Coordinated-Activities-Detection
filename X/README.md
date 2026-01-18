@@ -1,14 +1,13 @@
-# OSINT X (Twitter) - Coordination d'abord
+# X (Twitter) OSINT - Coordination First
 
-Ce projet traite des exports CSV X (Twitter) pour détecter des activités coordonnées.
-Le pipeline actuel met l'accent sur la détection de coordination via graphes et motifs
-d'association. L'analyse désinformation/influence vient ensuite, une fois la coordination
-confirmée.
+This project processes X (Twitter) CSV exports to detect coordinated activity.
+The pipeline focuses on coordination signals (graphs + multi-signal rules). NLP
+and influence analysis come after coordination is confirmed.
 
-## Prerequis
+## Requirements
 
 - Python 3.11+
-- Environnement virtuel Python recommandé
+- Virtual environment recommended
 
 ## Installation
 
@@ -35,54 +34,54 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Donnees attendues
+## Expected Data
 
-- Place tes CSV X dans `data/` (ex: `data/may_july_chunk_1.csv`).
-- Le script d'ingestion produit un format commun:
+- Put X CSVs in `data/` (e.g., `data/may_july_chunk_1.csv`).
+- The ingestion step produces:
   - `data/comments.jsonl`
-  - `data/videos.jsonl` (ici "video" = conversationId)
+  - `data/videos.jsonl` (here "video" = conversationId)
 
-## Pipeline (execution etape par etape)
+## Pipeline (step by step)
 
-1) Ingestion CSV X (conversationId -> video_id)
+1) Ingest X CSV (conversationId -> video_id)
 ```bash
 python src/01_ingest_x_csv.py
 ```
 
-2) Graphes SNA (co-participation par conversationId)
+2) SNA graphs (co-participation by conversationId)
 ```bash
 python src/02_build_sna_graphs.py
 ```
 
-3) Filtrage du graphe utilisateur (optionnel)
+3) Filter user graph (optional)
 ```bash
 python src/03_filter_user_graph.py
 ```
 
-4) Motifs coordonnes (ARL)
+4) ARL patterns (coordination motifs)
 ```bash
 python src/04_mine_arl_rules.py
 ```
 
-5) Score utilisateurs (optionnel)
+5) Score coordination (optional)
 ```bash
 python src/05_score_coordination.py
 ```
 
-6) NLP leger (apres validation coordination)
+6) Light NLP features (after coordination validation)
 ```bash
 python src/06_nlp_features.py
 ```
 
-7) Coordination multi-signal (1h, K=2, exact match)
+7) Multi-signal coordination detection (1h, K=2, exact match)
 ```bash
 python src/07_detect_coordination.py
 ```
 
-## Structure du projet
+## Project Structure
 
 ```
-data/              # CSV bruts + sorties JSON/graphes
+data/              # Raw CSVs + generated outputs
 src/
   01_ingest_x_csv.py
   02_build_sna_graphs.py
@@ -93,14 +92,10 @@ src/
   07_detect_coordination.py
   utils_io.py
   utils_text.py
-archive/
-  youtube/         # scripts YouTube archives
 ```
 
 ## Notes
 
-- Le regroupement est fait par `conversationId` (coherence pour detection de coordination).
-- Les motifs ARL utilisent canaux de conversation, domaines, hashtags et mentions.
-- Une fois les clusters coordonnes confirmes, on peut ajouter un module NLP
-  pour analyser desinformation / campagnes d'influence.
-- Le script de coordination genere aussi `data/x_user_item.gexf` (biparti User-Item).
+- Grouping is by `conversationId` for coordination detection.
+- ARL uses conversation channels, domains, hashtags, and mentions.
+- The coordination script also generates `data/x_user_item.gexf` (user-item bipartite graph).
