@@ -1,0 +1,17 @@
+python-dotenv==1.0.1
+google-api-python-client==2.137.0
+google-auth==2.33.0
+google-auth-httplib2==0.2.0
+httplib2==0.22.0
+
+pandas==2.2.2
+numpy==2.0.1
+tqdm==4.66.4
+
+networkx==3.3
+python-louvain==0.16
+mlxtend==0.23.1
+
+scikit-learn==1.5.1
+spacy==3.7.5
+youtube-transcript-api==0.6.2

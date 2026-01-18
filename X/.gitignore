@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Hide X data outputs by default (keep raw CSVs)
+data/*
+!data/may_july_chunk_1.csv
+!data/may_july_chunk_10.csv

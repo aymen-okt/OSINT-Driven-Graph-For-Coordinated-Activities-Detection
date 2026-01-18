@@ -1,8 +1,17 @@
-.env
 .venv/
+**/.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+**/.env
 
-data/*.gexf
+# X (Twitter) data: keep only raw CSVs
+X/data/*
+!X/data/may_july_chunk_1.csv
+!X/data/may_july_chunk_10.csv
+X/data/tmp_coordination/
+
+# Generated graphs and databases
+**/*.gexf
+**/*.db

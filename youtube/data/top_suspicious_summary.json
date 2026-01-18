@@ -1,0 +1,941 @@
+{
+  "graph": {
+    "nodes": 22532,
+    "edges": 3311036,
+    "comm_density_min_edge_weight": 2
+  },
+  "scoring_weights": {
+    "W_SNA": 0.6,
+    "W_ARL": 0.4,
+    "W_COMM": 0.1
+  },
+  "top_users": [
+    {
+      "author_id": "cc56e646f6b8aec1",
+      "community": 4,
+      "suspicion_score": 48.94945694545845,
+      "weighted_degree": 1549.0,
+      "rule_hits": 29,
+      "community_density_w2": 0.08232118758434548
+    },
+    {
+      "author_id": "0e2410ab413b6824",
+      "community": 12,
+      "suspicion_score": 34.29781413563175,
+      "weighted_degree": 1293.0,
+      "rule_hits": 20,
+      "community_density_w2": 0.125
+    },
+    {
+      "author_id": "dba3eba0702950a1",
+      "community": 37,
+      "suspicion_score": 22.174916260646842,
+      "weighted_degree": 1208.0,
+      "rule_hits": 12,
+      "community_density_w2": 1.0
+    },
+    {
+      "author_id": "9d242ec9b891884c",
+      "community": 14,
+      "suspicion_score": 11.640884966134175,
+      "weighted_degree": 1311.0,
+      "rule_hits": 5,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "c89e4df795c9b01c",
+      "community": 5,
+      "suspicion_score": 8.289581979624867,
+      "weighted_degree": 844.0,
+      "rule_hits": 4,
+      "community_density_w2": 0.23809523809523808
+    },
+    {
+      "author_id": "ccec51dac8368608",
+      "community": 14,
+      "suspicion_score": 7.288095219845389,
+      "weighted_degree": 984.0,
+      "rule_hits": 3,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "cc1f5999ca361492",
+      "community": 5,
+      "suspicion_score": 6.337808008358217,
+      "weighted_degree": 736.0,
+      "rule_hits": 3,
+      "community_density_w2": 0.23809523809523808
+    },
+    {
+      "author_id": "b08d1ae5b108884d",
+      "community": 57,
+      "suspicion_score": 6.036253953600742,
+      "weighted_degree": 310.0,
+      "rule_hits": 4,
+      "community_density_w2": 0.0
+    },
+    {
+      "author_id": "b4d0b001b2cc68bb",
+      "community": 14,
+      "suspicion_score": 5.342391165755338,
+      "weighted_degree": 1626.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "c41b6c2f55aa2f41",
+      "community": 4,
+      "suspicion_score": 5.214135149344391,
+      "weighted_degree": 1596.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.08232118758434548
+    },
+    {
+      "author_id": "ec26e679d211f9a9",
+      "community": 12,
+      "suspicion_score": 5.113276605261351,
+      "weighted_degree": 1567.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.125
+    },
+    {
+      "author_id": "eacb5e2f461dd871",
+      "community": 9,
+      "suspicion_score": 4.795351201267813,
+      "weighted_degree": 1490.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "d1336d3c024dd991",
+      "community": 10,
+      "suspicion_score": 4.498557594448525,
+      "weighted_degree": 1417.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.10526315789473684
+    },
+    {
+      "author_id": "1bd56dad0e5dea83",
+      "community": 18,
+      "suspicion_score": 4.432589236835136,
+      "weighted_degree": 1402.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.09166666666666666
+    },
+    {
+      "author_id": "370df457614fa8fb",
+      "community": 14,
+      "suspicion_score": 4.419624217500827,
+      "weighted_degree": 1398.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "5cfdf86fc7e74a0d",
+      "community": 35,
+      "suspicion_score": 4.401207409647262,
+      "weighted_degree": 1382.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.21978021978021978
+    },
+    {
+      "author_id": "72d57fb9b1643a18",
+      "community": 14,
+      "suspicion_score": 3.8772962742284385,
+      "weighted_degree": 1264.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "de92f073c0518ff7",
+      "community": 14,
+      "suspicion_score": 3.7730807292087243,
+      "weighted_degree": 864.0,
+      "rule_hits": 1,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "50f8d30c33725aa3",
+      "community": 11,
+      "suspicion_score": 3.768412273026319,
+      "weighted_degree": 1233.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.14285714285714285
+    },
+    {
+      "author_id": "318ffddfa39f77d1",
+      "community": 11,
+      "suspicion_score": 3.6439606107203213,
+      "weighted_degree": 828.0,
+      "rule_hits": 1,
+      "community_density_w2": 0.14285714285714285
+    },
+    {
+      "author_id": "634f48b5f6e818bc",
+      "community": 1,
+      "suspicion_score": 3.58724435104671,
+      "weighted_degree": 1193.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.09302325581395349
+    },
+    {
+      "author_id": "1f77c2a37cc726bb",
+      "community": 14,
+      "suspicion_score": 3.5858961853059617,
+      "weighted_degree": 1192.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "90059a9d74100354",
+      "community": 40,
+      "suspicion_score": 3.5130461630753422,
+      "weighted_degree": 1174.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "1724c476fda4b52f",
+      "community": 11,
+      "suspicion_score": 3.5053427483046384,
+      "weighted_degree": 1168.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.14285714285714285
+    },
+    {
+      "author_id": "627060ec6a0e7dbd",
+      "community": 18,
+      "suspicion_score": 3.4774445009225716,
+      "weighted_degree": 1166.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.09166666666666666
+    },
+    {
+      "author_id": "3d1df05cbddcc3aa",
+      "community": 40,
+      "suspicion_score": 3.41996002355844,
+      "weighted_degree": 1151.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1
+    },
+    {
+      "author_id": "ce72b23666fdc3f6",
+      "community": 34,
+      "suspicion_score": 3.3269883876303,
+      "weighted_degree": 1084.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.5606060606060606
+    },
+    {
+      "author_id": "40a265d494b4f6ee",
+      "community": 9,
+      "suspicion_score": 3.3140674159118872,
+      "weighted_degree": 1124.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "916f8aa94bd5086a",
+      "community": 9,
+      "suspicion_score": 3.3059729689973745,
+      "weighted_degree": 1122.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "0904b83ecff8ff6e",
+      "community": 25,
+      "suspicion_score": 3.30266566048516,
+      "weighted_degree": 1119.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.13157894736842105
+    },
+    {
+      "author_id": "4f7cdb5b05c65f22",
+      "community": 4,
+      "suspicion_score": 3.267420666403954,
+      "weighted_degree": 1115.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.08232118758434548
+    },
+    {
+      "author_id": "65032cac21cd2660",
+      "community": 9,
+      "suspicion_score": 3.2493118405957815,
+      "weighted_degree": 1108.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "139d29a2cdf586ec",
+      "community": 5,
+      "suspicion_score": 3.2143619282064866,
+      "weighted_degree": 1087.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.23809523809523808
+    },
+    {
+      "author_id": "9c2124b2689c98e6",
+      "community": 11,
+      "suspicion_score": 3.189659318638622,
+      "weighted_degree": 1090.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.14285714285714285
+    },
+    {
+      "author_id": "9c1bc6c271e72432",
+      "community": 9,
+      "suspicion_score": 3.148131254164366,
+      "weighted_degree": 1083.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "e52a87bcf39af792",
+      "community": 9,
+      "suspicion_score": 3.148131254164366,
+      "weighted_degree": 1083.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "11315d66efb556e7",
+      "community": 25,
+      "suspicion_score": 3.1326822752803816,
+      "weighted_degree": 1077.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.13157894736842105
+    },
+    {
+      "author_id": "93fb76a9c14cecab",
+      "community": 25,
+      "suspicion_score": 3.1043517110795853,
+      "weighted_degree": 1070.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.13157894736842105
+    },
+    {
+      "author_id": "f1c8efb370f8b44a",
+      "community": 5,
+      "suspicion_score": 3.0079535318863986,
+      "weighted_degree": 1036.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.23809523809523808
+    },
+    {
+      "author_id": "e2583d4e2a2b473e",
+      "community": 37,
+      "suspicion_score": 2.982977118280206,
+      "weighted_degree": 957.0,
+      "rule_hits": 0,
+      "community_density_w2": 1.0
+    },
+    {
+      "author_id": "87a5620ef6af140f",
+      "community": 35,
+      "suspicion_score": 2.976584752692929,
+      "weighted_degree": 1030.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.21978021978021978
+    },
+    {
+      "author_id": "25101d48d0ae6e00",
+      "community": 9,
+      "suspicion_score": 2.961958975130561,
+      "weighted_degree": 1037.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "1f8e0c9fb888de58",
+      "community": 4,
+      "suspicion_score": 2.939595566366167,
+      "weighted_degree": 1034.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.08232118758434548
+    },
+    {
+      "author_id": "57fc2696a1c05994",
+      "community": 25,
+      "suspicion_score": 2.8979433147594973,
+      "weighted_degree": 1019.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.13157894736842105
+    },
+    {
+      "author_id": "1b69b53f4b6d3349",
+      "community": 4,
+      "suspicion_score": 2.886981661421831,
+      "weighted_degree": 1021.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.08232118758434548
+    },
+    {
+      "author_id": "e4354ef4b20b922d",
+      "community": 34,
+      "suspicion_score": 2.877746583874814,
+      "weighted_degree": 973.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.5606060606060606
+    },
+    {
+      "author_id": "b9c5fe55dcb05c2a",
+      "community": 12,
+      "suspicion_score": 2.8751620333984365,
+      "weighted_degree": 1014.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.125
+    },
+    {
+      "author_id": "850f9a0740758b54",
+      "community": 9,
+      "suspicion_score": 2.7555505788104733,
+      "weighted_degree": 986.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.1087431693989071
+    },
+    {
+      "author_id": "d93365e1cb890b8a",
+      "community": 1,
+      "suspicion_score": 2.7494690953945886,
+      "weighted_degree": 986.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.09302325581395349
+    },
+    {
+      "author_id": "1f4249d7eacd61f4",
+      "community": 0,
+      "suspicion_score": 2.7019830083149285,
+      "weighted_degree": 974.0,
+      "rule_hits": 0,
+      "community_density_w2": 0.09581646423751687
+    }
+  ],
+  "top_communities": [
+    {
+      "community": 37,
+      "community_size": 396,
+      "avg_suspicion": 0.7806539152439803,
+      "max_suspicion": 22.174916260646842,
+      "density_w2": 1.0,
+      "avg_rule_hits": 0.030303030303030304,
+      "avg_weighted_degree": 401.50252525252523,
+      "top_users": [
+        "dba3eba0702950a1",
+        "e2583d4e2a2b473e",
+        "ec9c33a0b07ef18c",
+        "1c2623fb9b0bd0de",
+        "a350393e7fbed1b7",
+        "c4e7ca53504b694f",
+        "c3235139754a4b21",
+        "d0c0cf62cfc7fce8",
+        "0e11527ed95f00c6",
+        "9f3f051e89f69137"
+      ]
+    },
+    {
+      "community": 50,
+      "community_size": 461,
+      "avg_suspicion": 0.7422524960307855,
+      "max_suspicion": 2.5146115389254167,
+      "density_w2": 0.3333333333333333,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 467.0802603036876,
+      "top_users": [
+        "86c6413f796bf2e7",
+        "91bba4c1f50f1302",
+        "144b022993467e73",
+        "577732dc989b7a30",
+        "b0f1fde3ea62fca1",
+        "cee147ca71475e6c",
+        "86d266b91ddedc4b",
+        "c054f88d67bac7ff",
+        "24ba4131f6c3ff24",
+        "e464118148523c7e"
+      ]
+    },
+    {
+      "community": 14,
+      "community_size": 444,
+      "avg_suspicion": 0.7023907705548368,
+      "max_suspicion": 11.640884966134175,
+      "density_w2": 0.1,
+      "avg_rule_hits": 0.02252252252252252,
+      "avg_weighted_degree": 471.10585585585585,
+      "top_users": [
+        "9d242ec9b891884c",
+        "ccec51dac8368608",
+        "b4d0b001b2cc68bb",
+        "370df457614fa8fb",
+        "72d57fb9b1643a18",
+        "de92f073c0518ff7",
+        "1f77c2a37cc726bb",
+        "3c7372a8acc0fc60",
+        "a2abde0d335ffc04",
+        "804137650ed86be3"
+      ]
+    },
+    {
+      "community": 11,
+      "community_size": 445,
+      "avg_suspicion": 0.6597103781654122,
+      "max_suspicion": 3.768412273026319,
+      "density_w2": 0.14285714285714285,
+      "avg_rule_hits": 0.0022471910112359553,
+      "avg_weighted_degree": 464.0516853932584,
+      "top_users": [
+        "50f8d30c33725aa3",
+        "318ffddfa39f77d1",
+        "1724c476fda4b52f",
+        "9c2124b2689c98e6",
+        "c4137dcc771fa809",
+        "19e221f7de19fbf5",
+        "9047fa1178e582e2",
+        "99dbeb63c8a6cc5d",
+        "7f7326f206ccbdec",
+        "437a880fb7d5e85a"
+      ]
+    },
+    {
+      "community": 34,
+      "community_size": 390,
+      "avg_suspicion": 0.6051994801370861,
+      "max_suspicion": 3.3269883876303,
+      "density_w2": 0.5606060606060606,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 411.4923076923077,
+      "top_users": [
+        "ce72b23666fdc3f6",
+        "e4354ef4b20b922d",
+        "37b3020054d9f938",
+        "c403d74d55e150e6",
+        "3cfa896c6b6b1f81",
+        "517e71b40bc11663",
+        "7e17bde97bb4bd79",
+        "358dc8b9f7c40df8",
+        "278e973d575ef8e1",
+        "93b600ecda20c1b1"
+      ]
+    },
+    {
+      "community": 25,
+      "community_size": 423,
+      "avg_suspicion": 0.6039139110190239,
+      "max_suspicion": 3.30266566048516,
+      "density_w2": 0.13157894736842105,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 452.1843971631206,
+      "top_users": [
+        "0904b83ecff8ff6e",
+        "11315d66efb556e7",
+        "93fb76a9c14cecab",
+        "57fc2696a1c05994",
+        "cf4b2bf34f4dfee1",
+        "3d385ca387476090",
+        "f7540137fb2ce1cc",
+        "0751786c7af4b9cd",
+        "cce488933483c3fb",
+        "da0bacf21e44f01a"
+      ]
+    },
+    {
+      "community": 5,
+      "community_size": 455,
+      "avg_suspicion": 0.5531457309354403,
+      "max_suspicion": 8.289581979624867,
+      "density_w2": 0.23809523809523808,
+      "avg_rule_hits": 0.015384615384615385,
+      "avg_weighted_degree": 423.7010989010989,
+      "top_users": [
+        "c89e4df795c9b01c",
+        "cc1f5999ca361492",
+        "139d29a2cdf586ec",
+        "f1c8efb370f8b44a",
+        "6f71f52b3fe33b97",
+        "8bd870692b607715",
+        "534374144ced9cd1",
+        "06dbe3c0dc72664e",
+        "6f96a6d31975169d",
+        "76fb09df60ce168a"
+      ]
+    },
+    {
+      "community": 20,
+      "community_size": 326,
+      "avg_suspicion": 0.5407012281516935,
+      "max_suspicion": 2.473026962665871,
+      "density_w2": 1.0,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 353.5552147239264,
+      "top_users": [
+        "e119e4c50e0be0a9",
+        "6325eea699d802da",
+        "e192ce766a78b593",
+        "2d2018435888021c",
+        "f6095dc4164b654a",
+        "4fa3f5001448003d",
+        "b95d2b7e9a4c4f6f",
+        "c2f3b5de4acd4d5c",
+        "3f203e35639fe7de",
+        "e6bb0c65453218a7"
+      ]
+    },
+    {
+      "community": 18,
+      "community_size": 497,
+      "avg_suspicion": 0.5271244635703072,
+      "max_suspicion": 4.432589236835136,
+      "density_w2": 0.09166666666666666,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 437.0261569416499,
+      "top_users": [
+        "1bd56dad0e5dea83",
+        "627060ec6a0e7dbd",
+        "be75e887f255a4fa",
+        "0f78a42b823bbf57",
+        "68bc3085f232f5ab",
+        "b0c54dc384812196",
+        "ac323093ecc4bffa",
+        "4d3ff5ca544e5ecd",
+        "5b84aee98af95e8b",
+        "901fad2a734b4e4d"
+      ]
+    },
+    {
+      "community": 3,
+      "community_size": 419,
+      "avg_suspicion": 0.5261771527326384,
+      "max_suspicion": 2.0825905420278046,
+      "density_w2": 0.2,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 426.436754176611,
+      "top_users": [
+        "83abb031db28d557",
+        "2a745ea2669103de",
+        "e86bce7eecff1d0b",
+        "c3bd80bef46bc7d7",
+        "69128fcc06763618",
+        "4d2e6255dc9f4ea4",
+        "3f52b237f424cf7a",
+        "e2a858ba48775f41",
+        "167ee8e45615c9aa",
+        "868c2d9aedbf09f6"
+      ]
+    },
+    {
+      "community": 91,
+      "community_size": 71,
+      "avg_suspicion": 0.47964278882746164,
+      "max_suspicion": 2.0355726480932814,
+      "density_w2": 0.0,
+      "avg_rule_hits": 1.0140845070422535,
+      "avg_weighted_degree": 54.53521126760563,
+      "top_users": [
+        "f1c65f38d89fa400",
+        "259461024e451439",
+        "6fd29a4541760122",
+        "8952419cd65806c7",
+        "95561631e4a27bb0",
+        "ba8175daba52c9f5",
+        "f050493c1c5a079a",
+        "4229724bb32745ac",
+        "af228a15686b0ad6",
+        "ddfa0df2896c840c"
+      ]
+    },
+    {
+      "community": 35,
+      "community_size": 384,
+      "avg_suspicion": 0.4579786238821757,
+      "max_suspicion": 4.401207409647262,
+      "density_w2": 0.21978021978021978,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 407.6953125,
+      "top_users": [
+        "5cfdf86fc7e74a0d",
+        "87a5620ef6af140f",
+        "05d856b002608bb6",
+        "76df2a51b903744f",
+        "55d84a7952d447a7",
+        "a7f14646cb057104",
+        "88d2d4acd922f1af",
+        "5c055bd2644cf19f",
+        "04e26a42c0c58762",
+        "ff69f22686ea5127"
+      ]
+    },
+    {
+      "community": 4,
+      "community_size": 500,
+      "avg_suspicion": 0.4476573783919446,
+      "max_suspicion": 48.94945694545845,
+      "density_w2": 0.08232118758434548,
+      "avg_rule_hits": 0.058,
+      "avg_weighted_degree": 396.578,
+      "top_users": [
+        "cc56e646f6b8aec1",
+        "c41b6c2f55aa2f41",
+        "4f7cdb5b05c65f22",
+        "1f8e0c9fb888de58",
+        "1b69b53f4b6d3349",
+        "0073e177fa988f26",
+        "94197d2139a9c489",
+        "327620e48a74e863",
+        "fcb965e4c646999c",
+        "c8ce26a526bc73eb"
+      ]
+    },
+    {
+      "community": 38,
+      "community_size": 394,
+      "avg_suspicion": 0.4346823614938092,
+      "max_suspicion": 2.6370601556719624,
+      "density_w2": 0.2,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 403.8299492385787,
+      "top_users": [
+        "12650e5cd57505b6",
+        "4dd57c8886d1843f",
+        "888e064e3b49492a",
+        "b239f5429f5c1b47",
+        "56a5dfc65ed259c9",
+        "482cac6eed6c13f4",
+        "67051886574a850b",
+        "e2034915015226fb",
+        "2d95894187b0eb58",
+        "8ff22a06544d9a24"
+      ]
+    },
+    {
+      "community": 21,
+      "community_size": 385,
+      "avg_suspicion": 0.42277763015230996,
+      "max_suspicion": 2.2749868172986245,
+      "density_w2": 0.14285714285714285,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 406.35064935064935,
+      "top_users": [
+        "99e589c397e65065",
+        "c62903673b0b9fb8",
+        "8cac79aeec39a437",
+        "5cc5c2b5b7107081",
+        "7c5d1428d5cf6b2e",
+        "cd78ce646b382aa6",
+        "e069ce9200e8d24a",
+        "a1a0b166b7704f4f",
+        "3284204ca13767fe",
+        "b462fa1efe1cbdb6"
+      ]
+    },
+    {
+      "community": 10,
+      "community_size": 368,
+      "avg_suspicion": 0.3969935635443312,
+      "max_suspicion": 4.498557594448525,
+      "density_w2": 0.10526315789473684,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 403.5733695652174,
+      "top_users": [
+        "d1336d3c024dd991",
+        "df6425471920e681",
+        "d9cfadd5fc55d629",
+        "232d422bae52c454",
+        "efaaccdc64df2772",
+        "6ec17ffb9fe7bdac",
+        "40ca402b6fd64f32",
+        "6f49a565aec301df",
+        "208ebdb2de94d3d9",
+        "ad4facd22216253c"
+      ]
+    },
+    {
+      "community": 12,
+      "community_size": 482,
+      "avg_suspicion": 0.3874379127102639,
+      "max_suspicion": 34.29781413563175,
+      "density_w2": 0.125,
+      "avg_rule_hits": 0.04149377593360996,
+      "avg_weighted_degree": 383.7966804979253,
+      "top_users": [
+        "0e2410ab413b6824",
+        "ec26e679d211f9a9",
+        "b9c5fe55dcb05c2a",
+        "1b11de0fafd87bcc",
+        "754b00afe5987f52",
+        "76e7e84ab942c37a",
+        "2d410cd685fc1711",
+        "0f2d870a0221bc2a",
+        "b0720289b2e80462",
+        "738a4cc349203c25"
+      ]
+    },
+    {
+      "community": 40,
+      "community_size": 424,
+      "avg_suspicion": 0.37088305144773,
+      "max_suspicion": 3.5130461630753422,
+      "density_w2": 0.1,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 397.625,
+      "top_users": [
+        "90059a9d74100354",
+        "3d1df05cbddcc3aa",
+        "2266711dcac6c1b8",
+        "eb51ffaa6a121b16",
+        "d05f42c40cbc2865",
+        "2e5b8cd7660071b5",
+        "b7e39596b4d11ee4",
+        "1178cb9ea100c679",
+        "b2f0b88cba9e7971",
+        "789d4e1dced48c22"
+      ]
+    },
+    {
+      "community": 9,
+      "community_size": 1007,
+      "avg_suspicion": 0.35028206098201525,
+      "max_suspicion": 4.795351201267813,
+      "density_w2": 0.1087431693989071,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 391.69910625620656,
+      "top_users": [
+        "eacb5e2f461dd871",
+        "40a265d494b4f6ee",
+        "916f8aa94bd5086a",
+        "65032cac21cd2660",
+        "9c1bc6c271e72432",
+        "e52a87bcf39af792",
+        "25101d48d0ae6e00",
+        "850f9a0740758b54",
+        "9bf883ab20b2aaf9",
+        "63efaa65daf3d1bb"
+      ]
+    },
+    {
+      "community": 39,
+      "community_size": 635,
+      "avg_suspicion": 0.29304416885741663,
+      "max_suspicion": 2.607278409617993,
+      "density_w2": 0.23809523809523808,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 365.19212598425196,
+      "top_users": [
+        "042bad586ac2b653",
+        "61b98be5d5bbbc84",
+        "83932a7ac471b8ee",
+        "5c7ea7691314920e",
+        "5811b25371c223c4",
+        "db201feaad3f1d30",
+        "a37ee1b9bcde3c67",
+        "18192cd12a5f3fe9",
+        "e6f04d2d9d2fe667",
+        "bc503c8ba49f3cc2"
+      ]
+    },
+    {
+      "community": 49,
+      "community_size": 317,
+      "avg_suspicion": 0.2201306035645801,
+      "max_suspicion": 1.467888318710155,
+      "density_w2": 0.4,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 331.70031545741324,
+      "top_users": [
+        "89e0cb0860243009",
+        "1b38357a0c2cac95",
+        "a0c351d2a07be20e",
+        "f97557a6311b755f",
+        "7d9ea0562b6c8cf1",
+        "550a108efa69b8b2",
+        "69773f4bf5864c6a",
+        "74fc0c2ab70c3027",
+        "a73463f4ec4009b5",
+        "cafc5836bc97c06f"
+      ]
+    },
+    {
+      "community": 80,
+      "community_size": 368,
+      "avg_suspicion": 0.18549847076268539,
+      "max_suspicion": 1.7350658473873342,
+      "density_w2": 0.0,
+      "avg_rule_hits": 0.035326086956521736,
+      "avg_weighted_degree": 348.1576086956522,
+      "top_users": [
+        "fb9f6653fce3fe57",
+        "3d8dce9586922261",
+        "d28908b55cd50762",
+        "2357776131256a31",
+        "e624e0e3063a779a",
+        "24c4f9f9266b126d",
+        "fb1afcd57199bfb8",
+        "5fdc68539e9b8124",
+        "b7e7e55399f5fae0",
+        "1a3ad55ff928669e"
+      ]
+    },
+    {
+      "community": 44,
+      "community_size": 426,
+      "avg_suspicion": 0.10232633124737243,
+      "max_suspicion": 2.1814401242824766,
+      "density_w2": 0.14166666666666666,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 327.2863849765258,
+      "top_users": [
+        "df2bd2734cff6873",
+        "39789fdbfb29f2b1",
+        "a3f00fb9ee0a053a",
+        "7b8c147b721fa807",
+        "61d253a00f768060",
+        "1b60632a7cd86030",
+        "da45fe021f19bef1",
+        "229127ba077cc7fd",
+        "5caa7346c6138b3c",
+        "538796aa2ea21bb6"
+      ]
+    },
+    {
+      "community": 6,
+      "community_size": 296,
+      "avg_suspicion": 0.076847682916658,
+      "max_suspicion": 1.8713810946433576,
+      "density_w2": 0.16666666666666666,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 318.60135135135135,
+      "top_users": [
+        "b0de0424ee881055",
+        "bcfc550556856d02",
+        "244b6632ca66cd8a",
+        "837dcc74b4421b38",
+        "4244de54d9b4726a",
+        "8e52a77c0b25455a",
+        "6026e507e10ee67c",
+        "74216024c8afe7f4",
+        "8816c11a63223013",
+        "3f54747d37c9d7fe"
+      ]
+    },
+    {
+      "community": 1,
+      "community_size": 758,
+      "avg_suspicion": 0.03875308570561212,
+      "max_suspicion": 3.58724435104671,
+      "density_w2": 0.09302325581395349,
+      "avg_rule_hits": 0.0,
+      "avg_weighted_degree": 316.2282321899736,
+      "top_users": [
+        "634f48b5f6e818bc",
+        "d93365e1cb890b8a",
+        "3b3117e55acd1a69",
+        "24fc58e66c575e2f",
+        "a4de74d222a98e1c",
+        "702b3861eca17975",
+        "d50bfb87baf31e27",
+        "6760629a192b69e6",
+        "250d04df3ce364d0",
+        "528f004112253a76"
+      ]
+    }
+  ]
+}
